@@ -3,7 +3,7 @@ body {
   font-weight: 300;
 }
 .header {
-  background-color: #1c2669;
+  background-color: #787c96;
   color: white;
   vertical-align: bottom;
 }
@@ -45,7 +45,7 @@ h5 {
   background-color: #444444;
   border-color: white;
   color: white;
-  width: 220px;
+  width: 200px;
   height: 40px;
 }
 #house {
@@ -58,10 +58,27 @@ h1 {
   font-size: 48px;
   margin-bottom: 30px;
   text-align: left;
+  color: #777;
 }
 .below {
   text-align: center;
   margin-top: 30px;
+  background-color: #ccc;
+}
+.belowpage {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #787c96;
+  color: white;
+}
+#copyright {
+  text-align: center;
+  background-color: #ccc;
+}
+.copyrightpage {
+  text-align: center;
+  background-color: #787c96;
+  color: white;
 }
 .button {
   background-color: #7b0303;
@@ -102,12 +119,15 @@ h1 {
 .icon {
   align-items: center;
   font-size: 21px;
+  vertical-align: middle;
 }
 .shoplinks {
   font-size: 16px;
 }
 h4 {
   color: #777;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 .about {
   margin-left: 30px;
@@ -121,6 +141,7 @@ h4 {
 }
 .contacthead {
   margin-left: 10px;
+  align-items: center;
 }
 .etsy {
   height: 50px;
@@ -140,4 +161,5 @@ h4 {
 }
 .emaillink {
   margin-left: 40px;
+  margin-top: 30px;
 }
